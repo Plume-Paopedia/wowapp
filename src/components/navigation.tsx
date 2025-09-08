@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-import { User, Shield, Trophy, Target } from "lucide-react";
+import { User, Shield, Trophy, Target, BarChart3 } from "lucide-react";
 
 interface NavigationProps {
   className?: string;
@@ -26,6 +26,11 @@ const navigationItems = [
     name: "Objectives",
     href: "/objectives",
     icon: Target,
+  },
+  {
+    name: "Comparison",
+    href: "/comparison",
+    icon: BarChart3,
   },
 ];
 
